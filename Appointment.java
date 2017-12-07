@@ -1,5 +1,4 @@
-/*AUTHORED BY STEVEN SOMERS 11/30/2016
-  Adaku Uchendu
+/*Adaku Uchendu
   Buban Ndeta 
   Steven Sommers 
   Yeabi Demissie 
@@ -51,6 +50,10 @@ class Appointment {
       this.year = year;
       yearInt = Integer.parseInt(year);
    }
+   public void setYear(Int year) {
+	      this.year = year;
+	      
+	   }
    public void setAMPM(String ampm) {
       this.ampm = ampm;
    }
